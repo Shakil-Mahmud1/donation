@@ -69,7 +69,7 @@ body{
 .contant-title p {
     font-size: 15px;
     line-height: 25px;
-    margin-bottom: 25px;
+    margin-bottom: 65px;
 }
 
 .donate-item {
@@ -104,4 +104,37 @@ body{
 }
 .onther-amount hr {
     margin-bottom: 25px;
+}
+
+.donate-cart {
+    display: flex;
+}
+
+.donate-cart div {
+    background: #FFEEEE;
+    margin-left: 20px;
+    padding: 50px 20px;
+    border-radius: 5px;
+}
+
+.donate-cart div:first-child{
+    margin-left: 0px;
+    background-color: #EDF5F6;
+}
+
+.donate-cart div:last-child{
+    margin-left: 0px;
+    background-color: #FFF4D6;
+    margin-left: 20px;
+}
+
+.donate-cart div h3 {
+    margin: 20px 0px;
+    font-size: 18px;
+}
+
+.donate-cart div p {
+    font-size: 15px;
+    line-height: 23px;
+    color: #999595;
 }
