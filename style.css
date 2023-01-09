@@ -101,6 +101,7 @@ body{
     display: block;
     margin: auto;
     margin-bottom: 10px;
+    padding: 10px 0px;
 }
 .onther-amount hr {
     margin-bottom: 25px;
