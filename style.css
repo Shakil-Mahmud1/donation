@@ -138,3 +138,46 @@ body{
     line-height: 23px;
     color: #999595;
 }
+.main-contain-box {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.title-box {
+    width: 55%;
+}
+
+.image-box {
+    width: 45%;
+}
+
+.image-box img {
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+.title-box h1 {
+    font-size: 38px;
+    width: 70%;
+    margin-bottom: 15px;
+    line-height: 47px;
+}
+
+.title-box p {
+    width: 70%;
+    font-size: 15px;
+    color: #999595;
+    margin-bottom: 20px;
+    line-height: 22px;
+}
+
+a.Contribute-btn {
+    text-decoration: none;
+    background: #FF5959;
+    padding: 10px 18px;
+    color: white;
+    border-radius: 4px;
+    display: block;
+    width: 22%;
+    text-align: center;
+}
