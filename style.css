@@ -1,5 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     font-family: 'Fira Sans', sans-serif;
+}
+
+.main-box{
+    background-image: linear-gradient(#00000014,#000000e3), url(images/donation12.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+}
+.container{
+    width: 1130px;
+    padding: 0px 15px;
+    margin: auto;
+}
+.header-title {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    padding: 180px 0px 120px 0px;
+}
+
+.header-title h1 {
+    font-size: 57px;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.header-title p {
+    color: #efefef;
+    line-height: 25px;
+    padding-bottom: 35px;
+    font-size: 15px;
+    width: 80%;
+    margin: auto;
+}
+
+.donate-btn {
+    text-decoration: none;
+    font-size: 16px;
+    color: white;
+    background-color: #ff5959;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: block;
+    margin: auto;
+    width: 12%;
+    text-align: center;
+}
+.contant-box {
+    margin: 150px 0px 120px 0px;
+}
+
+.contant-title {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+.contant-title h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.contant-title p {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 25px;
+}
+
+.donate-item {
+    display: flex;
+    width: 74%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.donate-item div {
+    background: #fafafa;
+    padding: 30px 20px;
+    margin-left: 30px;
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+}
+.donate-item div:first-child{
+    margin-left: 0px;
+}
+.onther-amount {
+    width: 74%;
+    margin: auto;
+}
+
+.onther-amount input {
+    border: none;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.onther-amount hr {
+    margin-bottom: 25px;
 }
