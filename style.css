@@ -256,3 +256,21 @@ a.Contribute-btn {
 .last-main-box {
     margin-bottom: 100px;
 }
+footer.foote-sec {
+    background: #0B0D17;
+    text-align: center;
+}
+
+footer.foote-sec h2 {
+    color: #FF5959;
+    padding-top: 48px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+footer.foote-sec p {
+    color: white;
+    font-size: 13px;
+    font-weight: 100;
+    padding-bottom: 70px;
+}
